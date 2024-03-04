@@ -53,8 +53,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    paddingTop: 50,
-    padding: 30,
+    margin: 30,
   },
   twoInputContainer: {
     flexDirection: "row",

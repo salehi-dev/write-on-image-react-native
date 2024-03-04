@@ -5,13 +5,10 @@ import CustomText from "./style/CustomText";
 const ImageProvide = ({ subject, weight, price }) => {
   return (
     <View style={{ position: "relative" }}>
-      <Image
-        source={require("../assets/white-image.png")}
-        style={styles.image}
-      />
+      <Image source={require("../assets/image.png")} style={styles.image} />
       <View style={styles.textContainer}>
         <CustomText>
-          Subject: <Text style={styles.subText}>{subject}</Text>
+          Product: <Text style={styles.subText}>{subject}</Text>
         </CustomText>
         <CustomText>
           Price: <Text style={styles.subText}>{price}</Text>
